@@ -5,7 +5,6 @@
       "/root/.opam/system/bin/iocaml.top",
       "-log",
       "/root/iocaml.log",
-      "-completion",
       "-object-info",
       "-connection-file",
       "{connection_file}"

@@ -35,6 +35,7 @@ RUN git clone -b fix_for_jupyter https://github.com/signalpillar/iocaml.git \
     && cd iocaml \
     && eval `opam config env` \
     && opam remove iocaml-kernel \
+    && opam install ocp-index \
     && make install \
     && ipython kernelspec install --name iocaml-kernel /root/.opam/system/lib/iocaml-kernel/ \
     && ipython kernelspec list \

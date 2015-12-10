@@ -6,6 +6,7 @@
       "-log",
       "/root/iocaml.log",
       "-object-info",
+      "-completion",
       "-connection-file",
       "{connection_file}"
  ]

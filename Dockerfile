@@ -31,7 +31,7 @@ RUN pip3 install --upgrade jupyter \
 # TODO: check that your opam is at least 1.2.0
 
 ENV PATH=$PATH:/root/.opam/system/bin
-RUN git clone -b fix_for_jupyter https://github.com/signalpillar/iocaml.git \
+RUN git clone -b fixes_for_jupyter https://github.com/signalpillar/iocaml.git \
     && cd iocaml \
     && eval `opam config env` \
     && opam remove iocaml-kernel \
